@@ -1,5 +1,4 @@
 .page {
-  overflow: hidden;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -9,7 +8,7 @@
 
 .header {
   display: flex;
-  width: 1340px;
+  width: 93.05%;
   margin: 92px 51px 92px 49px;
   justify-content: space-between;
   align-items: center;
@@ -83,7 +82,6 @@
 }
 
 .cover {
-  
   position: relative;
   width: 100%;
   min-height: 757px;
@@ -103,17 +101,20 @@
 }
 
 .cover__title {
+  position: relative;
   display: flex;
   flex-direction: column;
-
+  padding-top: 165px;
+  
   width: 100%;
-  margin-top: 165px;
+  
   color: white;
   font-weight: 700;
   font-size: 100px;
   line-height: 115px;
   letter-spacing: 30px;
   text-transform: uppercase;
+  z-index: 2;
 }
 
 .aligned-text {
@@ -140,20 +141,25 @@
 }
 
 .cover__description {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  height: 25px;
+  min-height: 25px;
   align-items: center;
-  margin-top: 141px;
+  margin-top: 128px;
   color: white;
   text-transform: uppercase;
   font-size: 22px;
+  z-index: 3;
+ 
+
 }
 
 .cover__description-text {
   margin-left: 422px;
   font-weight: 400;
   word-spacing: 17px;
+  max-width: 633px;
 }
 
 .bet-button {
@@ -267,7 +273,7 @@
   margin-top: 180px;
   margin-left: 50px;
   width: 1340px;
-  min-height: 487px;
+  
 }
 
 .about__column {
