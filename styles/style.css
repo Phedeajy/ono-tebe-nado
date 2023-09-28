@@ -325,8 +325,10 @@
   min-height: 109px;
   margin-top: 180px;
   margin-left: 50px;
+  margin-bottom: 90px;
   display: flex;
   justify-content: space-between;
+ 
 }
 
 .footer__menu-list {
@@ -341,6 +343,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-decoration: none;
 }
 
 .footer__menu-link_notactive {
